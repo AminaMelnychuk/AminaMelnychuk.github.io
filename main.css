@@ -1,0 +1,123 @@
+body{
+     background-image: url('/home/amina/Projects/WEB/1/Images/BD-Misti-Blue-115.jpg');
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: center;
+}
+.navbar{
+        background:#2aaaff;
+}
+.nav-link , .navbar-brand{
+                          color: #f4f4f4;
+                          cursor: pointer;
+}
+.nav-link{
+          margin-right: 1em !important;
+}
+.nav-link:hover{
+                background: #f4f4f4;
+                color: #2aaaff;
+}
+.navbar-collapse{
+                 justify-content: flex-end;
+}
+.navbar-toggler{
+                background:#fff !important;
+}
+    /*header style*/
+.header{
+        margin: 80px;
+}
+.about{
+       margin: 4em 0;
+       padding: 1em;
+       position: relative;
+}
+.about h1{
+          color:#0f0f0f;
+          margin: 2em;
+}
+.img-flex{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+.about span{
+            display: block;
+            color: #888;
+            position: absolute;
+            left: 115px;
+}
+.about .desc{
+             padding: 2em;
+             border-left:4px solid#2aaaff;
+}
+.about .desc h3{
+                color: #10828C;
+                text-align: left;
+}
+.about .desc p{
+               line-height:2;
+               color:#888;
+}
+.simple-btn button,
+.btn-size,
+.secondary-btn button{
+                      margin:10px;
+                      color: #2aaaff;
+}
+.btn-primary{
+             margin-left: 135px;
+}
+h1{
+   color: #000;
+}
+    /*footer style*/
+.footer{
+        height: 0px;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        bottom: -100px;
+}
+.col-md-2{
+          margin-left: 800px;
+}
+    /*contact*/
+.contact-form{
+              margin: 6em 0;
+              position: relative;
+}
+.contact-form h1{
+                 padding:2em 1px;
+                 color: #2aaaff;
+}
+.contact-form .right{
+                     max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+                                    background: #2aaaff;
+                                    color: #fff;
+                                    border:0;
+}
+.contact-form .right .form-control::placeholder{
+                                                color: #888;
+                                                font-size: 16px;
+}
+    /*Portfolio*/
+.portfolio{
+           margin: 4em 0;
+           position: relative;
+}    
+.portfolio img{
+               height: 15rem;
+               width: 100%;
+               margin: 1em;
+}
+   /*sertificates*/
+.scale {
+        transition: 1s;
+}
+.scale:hover {
+              transform: scale(1.8);
+}     
